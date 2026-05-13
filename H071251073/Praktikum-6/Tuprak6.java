@@ -35,7 +35,6 @@ abstract class LibraryItem {
     }
 }
 
-// ================= BOOK =================
 class Book extends LibraryItem {
     private String author;
 
@@ -64,7 +63,6 @@ class Book extends LibraryItem {
     }
 }
 
-// ================= DVD =================
 class DVD extends LibraryItem {
     private int duration;
 
@@ -93,7 +91,6 @@ class DVD extends LibraryItem {
     }
 }
 
-// ================= MEMBER =================
 class Member {
     private String name;
     private String memberId;
@@ -145,7 +142,6 @@ class Member {
     }
 }
 
-// ================= LOGGER =================
 class LibraryLogger {
     private List<String> logs = new ArrayList<>();
 
@@ -169,7 +165,6 @@ class LibraryLogger {
     }
 }
 
-// ================= LIBRARY ===
 class Library {
     private List<LibraryItem> items = new ArrayList<>();
     private List<Member> members = new ArrayList<>();
